@@ -1,0 +1,46 @@
+.Container {
+    width: 100%;
+    margin: auto;
+    background-image: url('../assets/images/image 5.png');
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formContainer {
+    background-color: rgb(195, 72, 27);
+    width: 30%;
+    padding: 20px;
+    border: 2px solid red;
+    margin-left: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px;
+    gap: 5px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.logo{
+    height: 100px;
+    width: 200px;
+}

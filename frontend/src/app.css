@@ -1,0 +1,29 @@
+/* src/App.css */
+.app {
+    display: flex;
+    height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+/* Adjust content margin when sidebar is open on small screens */
+@media (max-width: 768px) {
+    .content.shifted {
+        margin-left: 0px;
+    }
+    .content {
+        margin-left: 30px;
+    }
+}
+
+/* Ensure content is not hidden under sidebar on large screens */
+@media (min-width: 769px) {
+    .content {
+        margin-left: 110px;
+    }
+}
